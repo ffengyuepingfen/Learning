@@ -1,0 +1,1815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A330BA972A836F3D00980C49 /* ChongDianApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BA962A836F3D00980C49 /* ChongDianApp.swift */; };
+		A330BA9B2A836F3E00980C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A330BA9A2A836F3E00980C49 /* Assets.xcassets */; };
+		A330BA9F2A836F3E00980C49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A330BA9E2A836F3E00980C49 /* Preview Assets.xcassets */; };
+		A330BAA72A8371CA00980C49 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = A330BAA62A8371CA00980C49 /* Lottie */; };
+		A330BAB32A8372C500980C49 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BAAB2A8372C500980C49 /* LoginViewModel.swift */; };
+		A330BAB42A8372C500980C49 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BAAC2A8372C500980C49 /* LoginView.swift */; };
+		A330BAB52A8372C500980C49 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BAAD2A8372C500980C49 /* SuccessView.swift */; };
+		A330BAB62A8372C500980C49 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BAAE2A8372C500980C49 /* LottieView.swift */; };
+		A330BAB72A8372C500980C49 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BAB02A8372C500980C49 /* loading.json */; };
+		A330BAB82A8372C500980C49 /* success.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BAB12A8372C500980C49 /* success.json */; };
+		A330BAB92A8372C500980C49 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BAB22A8372C500980C49 /* LoadingView.swift */; };
+		A330BABB2A83736500980C49 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BABA2A83736500980C49 /* AppModel.swift */; };
+		A330BABD2A8373FB00980C49 /* LandmarkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BABC2A8373FB00980C49 /* LandmarkModel.swift */; };
+		A330BAC02A8374B000980C49 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BABF2A8374B000980C49 /* BlurView.swift */; };
+		A330BAC52A8378AA00980C49 /* LoginCoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BAC42A8378AA00980C49 /* LoginCoverView.swift */; };
+		A330BAC72A837E0100980C49 /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BAC62A837E0100980C49 /* HomeTabView.swift */; };
+		A330BACA2A8388BD00980C49 /* UIHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BAC92A8388BD00980C49 /* UIHome.swift */; };
+		A330BACC2A83890500980C49 /* UISmallAppsHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BACB2A83890500980C49 /* UISmallAppsHome.swift */; };
+		A330BACF2A838B6100980C49 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BACE2A838B6100980C49 /* MyButton.swift */; };
+		A330BAD22A848AA900980C49 /* DoubleEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BAD12A848AA900980C49 /* DoubleEx.swift */; };
+		A330BAD62A848B5F00980C49 /* FileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BAD52A848B5F00980C49 /* FileHelper.swift */; };
+		A330BAD82A848B9000980C49 /* ColorEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BAD72A848B9000980C49 /* ColorEx.swift */; };
+		A330BADA2A848BF900980C49 /* ArrayEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BAD92A848BF900980C49 /* ArrayEx.swift */; };
+		A330BADC2A848C1E00980C49 /* UrlEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BADB2A848C1E00980C49 /* UrlEx.swift */; };
+		A330BADE2A848C3700980C49 /* StringEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BADD2A848C3700980C49 /* StringEx.swift */; };
+		A330BAE02A848C6900980C49 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BADF2A848C6900980C49 /* SampleData.swift */; };
+		A330BB232A848D9500980C49 /* pokemon-7.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BAE32A848D9500980C49 /* pokemon-7.json */; };
+		A330BB242A848D9500980C49 /* pokemon-14.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BAE42A848D9500980C49 /* pokemon-14.json */; };
+		A330BB252A848D9500980C49 /* pokemon-22.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BAE52A848D9500980C49 /* pokemon-22.json */; };
+		A330BB262A848D9500980C49 /* pokemon-18.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BAE62A848D9500980C49 /* pokemon-18.json */; };
+		A330BB272A848D9500980C49 /* pokemon-19.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BAE72A848D9500980C49 /* pokemon-19.json */; };
+		A330BB282A848D9500980C49 /* pokemon-23.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BAE82A848D9500980C49 /* pokemon-23.json */; };
+		A330BB292A848D9500980C49 /* pokemon-15.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BAE92A848D9500980C49 /* pokemon-15.json */; };
+		A330BB2A2A848D9500980C49 /* pokemon-6.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BAEA2A848D9500980C49 /* pokemon-6.json */; };
+		A330BB2B2A848D9500980C49 /* pokemon-24.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BAEB2A848D9500980C49 /* pokemon-24.json */; };
+		A330BB2C2A848D9500980C49 /* pokemon-28.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BAEC2A848D9500980C49 /* pokemon-28.json */; };
+		A330BB2D2A848D9500980C49 /* pokemon-1.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BAED2A848D9500980C49 /* pokemon-1.json */; };
+		A330BB2E2A848D9500980C49 /* pokemon-12.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BAEE2A848D9500980C49 /* pokemon-12.json */; };
+		A330BB2F2A848D9500980C49 /* pokemon-13.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BAEF2A848D9500980C49 /* pokemon-13.json */; };
+		A330BB302A848D9500980C49 /* pokemon-29.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BAF02A848D9500980C49 /* pokemon-29.json */; };
+		A330BB312A848D9500980C49 /* pokemon-25.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BAF12A848D9500980C49 /* pokemon-25.json */; };
+		A330BB322A848D9500980C49 /* pokemon-26.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BAF22A848D9500980C49 /* pokemon-26.json */; };
+		A330BB332A848D9500980C49 /* pokemon-30.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BAF32A848D9500980C49 /* pokemon-30.json */; };
+		A330BB342A848D9500980C49 /* pokemon-10.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BAF42A848D9500980C49 /* pokemon-10.json */; };
+		A330BB352A848D9500980C49 /* pokemon-3.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BAF52A848D9500980C49 /* pokemon-3.json */; };
+		A330BB362A848D9500980C49 /* pokemon-2.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BAF62A848D9500980C49 /* pokemon-2.json */; };
+		A330BB372A848D9500980C49 /* pokemon-11.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BAF72A848D9500980C49 /* pokemon-11.json */; };
+		A330BB382A848D9500980C49 /* pokemon-27.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BAF82A848D9500980C49 /* pokemon-27.json */; };
+		A330BB392A848D9500980C49 /* pokemon-16.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BAF92A848D9500980C49 /* pokemon-16.json */; };
+		A330BB3A2A848D9500980C49 /* pokemon-5.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BAFA2A848D9500980C49 /* pokemon-5.json */; };
+		A330BB3B2A848D9500980C49 /* pokemon-9.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BAFB2A848D9500980C49 /* pokemon-9.json */; };
+		A330BB3C2A848D9500980C49 /* pokemon-20.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BAFC2A848D9500980C49 /* pokemon-20.json */; };
+		A330BB3D2A848D9500980C49 /* pokemon-21.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BAFD2A848D9500980C49 /* pokemon-21.json */; };
+		A330BB3E2A848D9500980C49 /* pokemon-8.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BAFE2A848D9500980C49 /* pokemon-8.json */; };
+		A330BB3F2A848D9500980C49 /* pokemon-4.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BAFF2A848D9500980C49 /* pokemon-4.json */; };
+		A330BB402A848D9500980C49 /* pokemon-17.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB002A848D9500980C49 /* pokemon-17.json */; };
+		A330BB412A848D9500980C49 /* pokemon-species-11.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB022A848D9500980C49 /* pokemon-species-11.json */; };
+		A330BB422A848D9500980C49 /* pokemon-species-7.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB032A848D9500980C49 /* pokemon-species-7.json */; };
+		A330BB432A848D9500980C49 /* pokemon-species-27.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB042A848D9500980C49 /* pokemon-species-27.json */; };
+		A330BB442A848D9500980C49 /* pokemon-species-30.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB052A848D9500980C49 /* pokemon-species-30.json */; };
+		A330BB452A848D9500980C49 /* pokemon-species-26.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB062A848D9500980C49 /* pokemon-species-26.json */; };
+		A330BB462A848D9500980C49 /* pokemon-species-6.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB072A848D9500980C49 /* pokemon-species-6.json */; };
+		A330BB472A848D9500980C49 /* pokemon-species-10.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB082A848D9500980C49 /* pokemon-species-10.json */; };
+		A330BB482A848D9500980C49 /* pokemon-species-21.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB092A848D9500980C49 /* pokemon-species-21.json */; };
+		A330BB492A848D9500980C49 /* pokemon-species-17.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB0A2A848D9500980C49 /* pokemon-species-17.json */; };
+		A330BB4A2A848D9500980C49 /* pokemon-species-1.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB0B2A848D9500980C49 /* pokemon-species-1.json */; };
+		A330BB4B2A848D9500980C49 /* pokemon-species-16.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB0C2A848D9500980C49 /* pokemon-species-16.json */; };
+		A330BB4C2A848D9500980C49 /* pokemon-species-20.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB0D2A848D9500980C49 /* pokemon-species-20.json */; };
+		A330BB4D2A848D9500980C49 /* pokemon-species-23.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB0E2A848D9500980C49 /* pokemon-species-23.json */; };
+		A330BB4E2A848D9500980C49 /* pokemon-species-19.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB0F2A848D9500980C49 /* pokemon-species-19.json */; };
+		A330BB4F2A848D9500980C49 /* pokemon-species-3.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB102A848D9500980C49 /* pokemon-species-3.json */; };
+		A330BB502A848D9500980C49 /* pokemon-species-15.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB112A848D9500980C49 /* pokemon-species-15.json */; };
+		A330BB512A848D9500980C49 /* pokemon-species-14.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB122A848D9500980C49 /* pokemon-species-14.json */; };
+		A330BB522A848D9500980C49 /* pokemon-species-2.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB132A848D9500980C49 /* pokemon-species-2.json */; };
+		A330BB532A848D9500980C49 /* pokemon-species-18.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB142A848D9500980C49 /* pokemon-species-18.json */; };
+		A330BB542A848D9500980C49 /* pokemon-species-22.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB152A848D9500980C49 /* pokemon-species-22.json */; };
+		A330BB552A848D9500980C49 /* pokemon-species-5.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB162A848D9500980C49 /* pokemon-species-5.json */; };
+		A330BB562A848D9500980C49 /* pokemon-species-29.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB172A848D9500980C49 /* pokemon-species-29.json */; };
+		A330BB572A848D9500980C49 /* pokemon-species-13.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB182A848D9500980C49 /* pokemon-species-13.json */; };
+		A330BB582A848D9500980C49 /* pokemon-species-9.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB192A848D9500980C49 /* pokemon-species-9.json */; };
+		A330BB592A848D9500980C49 /* pokemon-species-25.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB1A2A848D9500980C49 /* pokemon-species-25.json */; };
+		A330BB5A2A848D9500980C49 /* pokemon-species-24.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB1B2A848D9500980C49 /* pokemon-species-24.json */; };
+		A330BB5B2A848D9500980C49 /* pokemon-species-8.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB1C2A848D9500980C49 /* pokemon-species-8.json */; };
+		A330BB5C2A848D9500980C49 /* pokemon-species-12.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB1D2A848D9500980C49 /* pokemon-species-12.json */; };
+		A330BB5D2A848D9500980C49 /* pokemon-species-28.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB1E2A848D9500980C49 /* pokemon-species-28.json */; };
+		A330BB5E2A848D9500980C49 /* pokemon-species-4.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB1F2A848D9500980C49 /* pokemon-species-4.json */; };
+		A330BB5F2A848D9500980C49 /* ability-34.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB212A848D9500980C49 /* ability-34.json */; };
+		A330BB602A848D9500980C49 /* ability-65.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BB222A848D9500980C49 /* ability-65.json */; };
+		A330BB632A848DCF00980C49 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BB622A848DCF00980C49 /* User.swift */; };
+		A330BB652A848DED00980C49 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BB642A848DED00980C49 /* Language.swift */; };
+		A330BB672A848E0200980C49 /* Ability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BB662A848E0200980C49 /* Ability.swift */; };
+		A330BB692A848E1600980C49 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BB682A848E1600980C49 /* Pokemon.swift */; };
+		A330BB6B2A848E3200980C49 /* PokemonSpecies.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BB6A2A848E3200980C49 /* PokemonSpecies.swift */; };
+		A330BB6E2A848E6600980C49 /* AbilityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BB6D2A848E6600980C49 /* AbilityViewModel.swift */; };
+		A330BB702A848E7D00980C49 /* PokemonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BB6F2A848E7D00980C49 /* PokemonViewModel.swift */; };
+		A330BB732A848F3400980C49 /* FileStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BB722A848F3400980C49 /* FileStorage.swift */; };
+		A330BB762A848F8200980C49 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BB752A848F8200980C49 /* LoginRequest.swift */; };
+		A330BB782A848F9E00980C49 /* RegisterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BB772A848F9E00980C49 /* RegisterRequest.swift */; };
+		A330BB7A2A848FB500980C49 /* LoadAbilityRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BB792A848FB500980C49 /* LoadAbilityRequest.swift */; };
+		A330BB7C2A848FD500980C49 /* LoadPokemonRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BB7B2A848FD500980C49 /* LoadPokemonRequest.swift */; };
+		A330BB7E2A848FEE00980C49 /* EmailCheckingRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BB7D2A848FEE00980C49 /* EmailCheckingRequest.swift */; };
+		A330BB812A84901500980C49 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BB802A84901500980C49 /* AppState.swift */; };
+		A330BB832A84903300980C49 /* AppCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BB822A84903300980C49 /* AppCommand.swift */; };
+		A330BB862A8490B200980C49 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A330BB852A8490B200980C49 /* Kingfisher */; };
+		A330BB882A8490D700980C49 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BB872A8490D700980C49 /* AppError.swift */; };
+		A330BB8A2A8490EE00980C49 /* AppAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BB892A8490EE00980C49 /* AppAction.swift */; };
+		A330BB8C2A84910500980C49 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BB8B2A84910500980C49 /* Store.swift */; };
+		A330BB8E2A84921300980C49 /* PokeMasterHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BB8D2A84921300980C49 /* PokeMasterHome.swift */; };
+		A330BB902A8492AA00980C49 /* PokemonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BB8F2A8492AA00980C49 /* PokemonList.swift */; };
+		A330BB922A8492C700980C49 /* PokemonInfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BB912A8492C700980C49 /* PokemonInfoRow.swift */; };
+		A330BB952A84957F00980C49 /* RadarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BB942A84957F00980C49 /* RadarView.swift */; };
+		A330BB972A849D5D00980C49 /* LoadingView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BB962A849D5D00980C49 /* LoadingView1.swift */; };
+		A330BB9A2A849D8E00980C49 /* PokemonInfoPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BB992A849D8E00980C49 /* PokemonInfoPanel.swift */; };
+		A330BB9C2A849E3B00980C49 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BB9B2A849E3B00980C49 /* SafariView.swift */; };
+		A330BB9E2A849E6E00980C49 /* OverlaySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BB9D2A849E6E00980C49 /* OverlaySheet.swift */; };
+		A330BBA02A849F0800980C49 /* SettingRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BB9F2A849F0800980C49 /* SettingRootView.swift */; };
+		A330BBA22A849F2200980C49 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBA12A849F2200980C49 /* SettingView.swift */; };
+		A330BBDA2A84ACF900980C49 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBA52A84ACF900980C49 /* Profile.swift */; };
+		A330BBDC2A84ACF900980C49 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBA72A84ACF900980C49 /* Landmark.swift */; };
+		A330BBDD2A84ACF900980C49 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BBA92A84ACF900980C49 /* hikeData.json */; };
+		A330BBDE2A84ACF900980C49 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BBAA2A84ACF900980C49 /* landmarkData.json */; };
+		A330BBDF2A84ACF900980C49 /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBAD2A84ACF900980C49 /* GraphCapsule.swift */; };
+		A330BBE02A84ACF900980C49 /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBAE2A84ACF900980C49 /* HikeGraph.swift */; };
+		A330BBE12A84ACF900980C49 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBAF2A84ACF900980C49 /* HikeBadge.swift */; };
+		A330BBE22A84ACF900980C49 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBB02A84ACF900980C49 /* HikeDetail.swift */; };
+		A330BBE32A84ACF900980C49 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBB12A84ACF900980C49 /* Hike.swift */; };
+		A330BBE42A84ACF900980C49 /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBB22A84ACF900980C49 /* HikeView.swift */; };
+		A330BBE52A84ACF900980C49 /* Landmarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBB32A84ACF900980C49 /* Landmarks.swift */; };
+		A330BBE62A84ACF900980C49 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBB52A84ACF900980C49 /* MapView.swift */; };
+		A330BBE72A84ACF900980C49 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBB62A84ACF900980C49 /* CircleImage.swift */; };
+		A330BBE82A84ACF900980C49 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBB72A84ACF900980C49 /* FavoriteButton.swift */; };
+		A330BBE92A84ACF900980C49 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBB92A84ACF900980C49 /* LandmarkList.swift */; };
+		A330BBEA2A84ACF900980C49 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBBA2A84ACF900980C49 /* LandmarkDetail.swift */; };
+		A330BBEB2A84ACF900980C49 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBBB2A84ACF900980C49 /* LandmarkRow.swift */; };
+		A330BBEC2A84ACF900980C49 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBBD2A84ACF900980C49 /* ProfileSummary.swift */; };
+		A330BBED2A84ACF900980C49 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBBE2A84ACF900980C49 /* ProfileEditor.swift */; };
+		A330BBEE2A84ACF900980C49 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBBF2A84ACF900980C49 /* ProfileHost.swift */; };
+		A330BBEF2A84ACF900980C49 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBC12A84ACF900980C49 /* CategoryItem.swift */; };
+		A330BBF02A84ACF900980C49 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBC22A84ACF900980C49 /* CategoryHome.swift */; };
+		A330BBF12A84ACF900980C49 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBC32A84ACF900980C49 /* CategoryRow.swift */; };
+		A330BBF22A84ACF900980C49 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBC52A84ACF900980C49 /* RotatedBadgeSymbol.swift */; };
+		A330BBF32A84ACF900980C49 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBC62A84ACF900980C49 /* HexagonParameters.swift */; };
+		A330BBF42A84ACF900980C49 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBC72A84ACF900980C49 /* BadgeSymbol.swift */; };
+		A330BBF52A84ACF900980C49 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBC82A84ACF900980C49 /* BadgeBackground.swift */; };
+		A330BBF62A84ACF900980C49 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBC92A84ACF900980C49 /* Badge.swift */; };
+		A330BBF72A84ACF900980C49 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBCB2A84ACF900980C49 /* Buttons.swift */; };
+		A330BBF82A84ACF900980C49 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBCC2A84ACF900980C49 /* Data.swift */; };
+		A330BBF92A84ACF900980C49 /* DCCourseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBCD2A84ACF900980C49 /* DCCourseDetail.swift */; };
+		A330BBFA2A84ACF900980C49 /* DesignCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBCE2A84ACF900980C49 /* DesignCode.swift */; };
+		A330BBFB2A84ACF900980C49 /* DCUpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBCF2A84ACF900980C49 /* DCUpdateStore.swift */; };
+		A330BBFC2A84ACF900980C49 /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBD02A84ACF900980C49 /* PostList.swift */; };
+		A330BBFD2A84ACF900980C49 /* DesignCodeHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBD12A84ACF900980C49 /* DesignCodeHomeView.swift */; };
+		A330BBFE2A84ACF900980C49 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBD22A84ACF900980C49 /* Modifiers.swift */; };
+		A330BBFF2A84ACF900980C49 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBD32A84ACF900980C49 /* DataStore.swift */; };
+		A330BC002A84ACF900980C49 /* DCUpdateDetaile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBD42A84ACF900980C49 /* DCUpdateDetaile.swift */; };
+		A330BC012A84ACF900980C49 /* DesignCodeHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBD52A84ACF900980C49 /* DesignCodeHome.swift */; };
+		A330BC022A84ACF900980C49 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBD62A84ACF900980C49 /* RingView.swift */; };
+		A330BC032A84ACF900980C49 /* DCUpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBD72A84ACF900980C49 /* DCUpdateList.swift */; };
+		A330BC042A84ACF900980C49 /* DCCourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBD82A84ACF900980C49 /* DCCourseList.swift */; };
+		A330BC052A84ACF900980C49 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBD92A84ACF900980C49 /* MenuView.swift */; };
+		A330BC0D2A84AE8D00980C49 /* ChongdianMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BC0C2A84AE8D00980C49 /* ChongdianMacApp.swift */; };
+		A330BC0F2A84AE8D00980C49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BC0E2A84AE8D00980C49 /* ContentView.swift */; };
+		A330BC112A84AE8D00980C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A330BC102A84AE8D00980C49 /* Assets.xcassets */; };
+		A330BC142A84AE8D00980C49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A330BC132A84AE8D00980C49 /* Preview Assets.xcassets */; };
+		A330BC1A2A84AF4100980C49 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BC192A84AF4100980C49 /* LandmarkDetail.swift */; };
+		A330BC1C2A84AF5D00980C49 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BC1B2A84AF5D00980C49 /* LandmarkCommands.swift */; };
+		A330BC1E2A84AF7A00980C49 /* LandmarkSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BC1D2A84AF7A00980C49 /* LandmarkSettings.swift */; };
+		A330BC272A84B00C00980C49 /* ChongdianWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A330BC262A84B00C00980C49 /* ChongdianWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A330BC2C2A84B00C00980C49 /* ChongdianWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BC2B2A84B00C00980C49 /* ChongdianWatchApp.swift */; };
+		A330BC2E2A84B00C00980C49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BC2D2A84B00C00980C49 /* ContentView.swift */; };
+		A330BC302A84B00D00980C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A330BC2F2A84B00D00980C49 /* Assets.xcassets */; };
+		A330BC332A84B00D00980C49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A330BC322A84B00D00980C49 /* Preview Assets.xcassets */; };
+		A330BC3C2A84B04800980C49 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BC3B2A84B04800980C49 /* LandmarkDetail.swift */; };
+		A330BC3D2A84B0AD00980C49 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBA72A84ACF900980C49 /* Landmark.swift */; };
+		A330BC3E2A84B0B200980C49 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBA72A84ACF900980C49 /* Landmark.swift */; };
+		A330BC3F2A84B11D00980C49 /* LandmarkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BABC2A8373FB00980C49 /* LandmarkModel.swift */; };
+		A330BC402A84B11D00980C49 /* LandmarkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BABC2A8373FB00980C49 /* LandmarkModel.swift */; };
+		A330BC412A84B15200980C49 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBA52A84ACF900980C49 /* Profile.swift */; };
+		A330BC422A84B15300980C49 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBA52A84ACF900980C49 /* Profile.swift */; };
+		A330BC432A84B19E00980C49 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBB12A84ACF900980C49 /* Hike.swift */; };
+		A330BC442A84B19F00980C49 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBB12A84ACF900980C49 /* Hike.swift */; };
+		A330BC452A84B1CC00980C49 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBB92A84ACF900980C49 /* LandmarkList.swift */; };
+		A330BC462A84B1CC00980C49 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBB92A84ACF900980C49 /* LandmarkList.swift */; };
+		A330BC472A84B1E100980C49 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBBB2A84ACF900980C49 /* LandmarkRow.swift */; };
+		A330BC482A84B1E100980C49 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBBB2A84ACF900980C49 /* LandmarkRow.swift */; };
+		A330BC492A84B22600980C49 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBB62A84ACF900980C49 /* CircleImage.swift */; };
+		A330BC4A2A84B22700980C49 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBB62A84ACF900980C49 /* CircleImage.swift */; };
+		A330BC4B2A84B22A00980C49 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBB52A84ACF900980C49 /* MapView.swift */; };
+		A330BC4C2A84B22B00980C49 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBB52A84ACF900980C49 /* MapView.swift */; };
+		A330BC4D2A84B25C00980C49 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBB72A84ACF900980C49 /* FavoriteButton.swift */; };
+		A330BC4E2A84B25C00980C49 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BBB72A84ACF900980C49 /* FavoriteButton.swift */; };
+		A330BC4F2A84B30500980C49 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BBA92A84ACF900980C49 /* hikeData.json */; };
+		A330BC502A84B30600980C49 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BBA92A84ACF900980C49 /* hikeData.json */; };
+		A330BC512A84B30900980C49 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BBAA2A84ACF900980C49 /* landmarkData.json */; };
+		A330BC522A84B30900980C49 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = A330BBAA2A84ACF900980C49 /* landmarkData.json */; };
+		A330BC532A84B35200980C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A330BA9A2A836F3E00980C49 /* Assets.xcassets */; };
+		A330BC542A84B35300980C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A330BA9A2A836F3E00980C49 /* Assets.xcassets */; };
+		A330BC552A84B35300980C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A330BA9A2A836F3E00980C49 /* Assets.xcassets */; };
+		A330BC582A84B4F500980C49 /* BlueToothRocketHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BC572A84B4F500980C49 /* BlueToothRocketHome.swift */; };
+		A330BC5A2A84B56400980C49 /* BPeripheralViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BC592A84B56400980C49 /* BPeripheralViewModel.swift */; };
+		A330BC5C2A84B57900980C49 /* PPCBPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BC5B2A84B57900980C49 /* PPCBPeripheral.swift */; };
+		A330BC5E2A84B58E00980C49 /* BlueToothRocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BC5D2A84B58E00980C49 /* BlueToothRocketManager.swift */; };
+		A330BC602A84B5BD00980C49 /* PPPeripheralDetaileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BC5F2A84B5BD00980C49 /* PPPeripheralDetaileView.swift */; };
+		A330BC612A84B63600980C49 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BC1B2A84AF5D00980C49 /* LandmarkCommands.swift */; };
+		A330BC6F2A84B76D00980C49 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BC632A84B76D00980C49 /* ToDoItem.swift */; };
+		A330BC702A84B76D00980C49 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BC642A84B76D00980C49 /* BannerView.swift */; };
+		A330BC712A84B76D00980C49 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BC652A84B76D00980C49 /* ProgressView.swift */; };
+		A330BC722A84B76D00980C49 /* DisclosureGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BC662A84B76D00980C49 /* DisclosureGroupView.swift */; };
+		A330BC732A84B76D00980C49 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BC672A84B76D00980C49 /* SearchBarView.swift */; };
+		A330BC742A84B76D00980C49 /* Eager Grids.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BC682A84B76D00980C49 /* Eager Grids.swift */; };
+		A330BC752A84B76D00980C49 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BC692A84B76D00980C49 /* FormView.swift */; };
+		A330BC762A84B76D00980C49 /* CoreDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BC6A2A84B76D00980C49 /* CoreDataView.swift */; };
+		A330BC772A84B76D00980C49 /* SwipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BC6B2A84B76D00980C49 /* SwipeCardView.swift */; };
+		A330BC782A84B76D00980C49 /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BC6C2A84B76D00980C49 /* TextEditorView.swift */; };
+		A330BC792A84B76D00980C49 /* CustomBackItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BC6D2A84B76D00980C49 /* CustomBackItem.swift */; };
+		A330BC7A2A84B76D00980C49 /* NotificationToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A330BC6E2A84B76D00980C49 /* NotificationToastView.swift */; };
+		A3A555952A85C65000ED03EC /* KeyboardResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A555942A85C65000ED03EC /* KeyboardResponder.swift */; };
+		A3A555992A8CA55100ED03EC /* ConfirmationDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A555982A8CA55100ED03EC /* ConfirmationDialog.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A330BC282A84B00C00980C49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A330BA8B2A836F3D00980C49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A330BC252A84B00C00980C49;
+			remoteInfo = "ChongdianWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A330BC372A84B00D00980C49 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A330BC272A84B00C00980C49 /* ChongdianWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A330BA932A836F3D00980C49 /* ChongDian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChongDian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A330BA962A836F3D00980C49 /* ChongDianApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChongDianApp.swift; sourceTree = "<group>"; };
+		A330BA9A2A836F3E00980C49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A330BA9C2A836F3E00980C49 /* ChongDian.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChongDian.entitlements; sourceTree = "<group>"; };
+		A330BA9E2A836F3E00980C49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A330BAAB2A8372C500980C49 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		A330BAAC2A8372C500980C49 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A330BAAD2A8372C500980C49 /* SuccessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
+		A330BAAE2A8372C500980C49 /* LottieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		A330BAB02A8372C500980C49 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		A330BAB12A8372C500980C49 /* success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = success.json; sourceTree = "<group>"; };
+		A330BAB22A8372C500980C49 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		A330BABA2A83736500980C49 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		A330BABC2A8373FB00980C49 /* LandmarkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkModel.swift; sourceTree = "<group>"; };
+		A330BABF2A8374B000980C49 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		A330BAC42A8378AA00980C49 /* LoginCoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoverView.swift; sourceTree = "<group>"; };
+		A330BAC62A837E0100980C49 /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
+		A330BAC92A8388BD00980C49 /* UIHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHome.swift; sourceTree = "<group>"; };
+		A330BACB2A83890500980C49 /* UISmallAppsHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISmallAppsHome.swift; sourceTree = "<group>"; };
+		A330BACE2A838B6100980C49 /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
+		A330BAD12A848AA900980C49 /* DoubleEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleEx.swift; sourceTree = "<group>"; };
+		A330BAD52A848B5F00980C49 /* FileHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileHelper.swift; sourceTree = "<group>"; };
+		A330BAD72A848B9000980C49 /* ColorEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorEx.swift; sourceTree = "<group>"; };
+		A330BAD92A848BF900980C49 /* ArrayEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayEx.swift; sourceTree = "<group>"; };
+		A330BADB2A848C1E00980C49 /* UrlEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlEx.swift; sourceTree = "<group>"; };
+		A330BADD2A848C3700980C49 /* StringEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEx.swift; sourceTree = "<group>"; };
+		A330BADF2A848C6900980C49 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		A330BAE32A848D9500980C49 /* pokemon-7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-7.json"; sourceTree = "<group>"; };
+		A330BAE42A848D9500980C49 /* pokemon-14.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-14.json"; sourceTree = "<group>"; };
+		A330BAE52A848D9500980C49 /* pokemon-22.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-22.json"; sourceTree = "<group>"; };
+		A330BAE62A848D9500980C49 /* pokemon-18.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-18.json"; sourceTree = "<group>"; };
+		A330BAE72A848D9500980C49 /* pokemon-19.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-19.json"; sourceTree = "<group>"; };
+		A330BAE82A848D9500980C49 /* pokemon-23.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-23.json"; sourceTree = "<group>"; };
+		A330BAE92A848D9500980C49 /* pokemon-15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-15.json"; sourceTree = "<group>"; };
+		A330BAEA2A848D9500980C49 /* pokemon-6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-6.json"; sourceTree = "<group>"; };
+		A330BAEB2A848D9500980C49 /* pokemon-24.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-24.json"; sourceTree = "<group>"; };
+		A330BAEC2A848D9500980C49 /* pokemon-28.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-28.json"; sourceTree = "<group>"; };
+		A330BAED2A848D9500980C49 /* pokemon-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-1.json"; sourceTree = "<group>"; };
+		A330BAEE2A848D9500980C49 /* pokemon-12.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-12.json"; sourceTree = "<group>"; };
+		A330BAEF2A848D9500980C49 /* pokemon-13.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-13.json"; sourceTree = "<group>"; };
+		A330BAF02A848D9500980C49 /* pokemon-29.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-29.json"; sourceTree = "<group>"; };
+		A330BAF12A848D9500980C49 /* pokemon-25.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-25.json"; sourceTree = "<group>"; };
+		A330BAF22A848D9500980C49 /* pokemon-26.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-26.json"; sourceTree = "<group>"; };
+		A330BAF32A848D9500980C49 /* pokemon-30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-30.json"; sourceTree = "<group>"; };
+		A330BAF42A848D9500980C49 /* pokemon-10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-10.json"; sourceTree = "<group>"; };
+		A330BAF52A848D9500980C49 /* pokemon-3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-3.json"; sourceTree = "<group>"; };
+		A330BAF62A848D9500980C49 /* pokemon-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-2.json"; sourceTree = "<group>"; };
+		A330BAF72A848D9500980C49 /* pokemon-11.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-11.json"; sourceTree = "<group>"; };
+		A330BAF82A848D9500980C49 /* pokemon-27.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-27.json"; sourceTree = "<group>"; };
+		A330BAF92A848D9500980C49 /* pokemon-16.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-16.json"; sourceTree = "<group>"; };
+		A330BAFA2A848D9500980C49 /* pokemon-5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-5.json"; sourceTree = "<group>"; };
+		A330BAFB2A848D9500980C49 /* pokemon-9.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-9.json"; sourceTree = "<group>"; };
+		A330BAFC2A848D9500980C49 /* pokemon-20.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-20.json"; sourceTree = "<group>"; };
+		A330BAFD2A848D9500980C49 /* pokemon-21.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-21.json"; sourceTree = "<group>"; };
+		A330BAFE2A848D9500980C49 /* pokemon-8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-8.json"; sourceTree = "<group>"; };
+		A330BAFF2A848D9500980C49 /* pokemon-4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-4.json"; sourceTree = "<group>"; };
+		A330BB002A848D9500980C49 /* pokemon-17.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-17.json"; sourceTree = "<group>"; };
+		A330BB022A848D9500980C49 /* pokemon-species-11.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-species-11.json"; sourceTree = "<group>"; };
+		A330BB032A848D9500980C49 /* pokemon-species-7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-species-7.json"; sourceTree = "<group>"; };
+		A330BB042A848D9500980C49 /* pokemon-species-27.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-species-27.json"; sourceTree = "<group>"; };
+		A330BB052A848D9500980C49 /* pokemon-species-30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-species-30.json"; sourceTree = "<group>"; };
+		A330BB062A848D9500980C49 /* pokemon-species-26.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-species-26.json"; sourceTree = "<group>"; };
+		A330BB072A848D9500980C49 /* pokemon-species-6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-species-6.json"; sourceTree = "<group>"; };
+		A330BB082A848D9500980C49 /* pokemon-species-10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-species-10.json"; sourceTree = "<group>"; };
+		A330BB092A848D9500980C49 /* pokemon-species-21.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-species-21.json"; sourceTree = "<group>"; };
+		A330BB0A2A848D9500980C49 /* pokemon-species-17.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-species-17.json"; sourceTree = "<group>"; };
+		A330BB0B2A848D9500980C49 /* pokemon-species-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-species-1.json"; sourceTree = "<group>"; };
+		A330BB0C2A848D9500980C49 /* pokemon-species-16.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-species-16.json"; sourceTree = "<group>"; };
+		A330BB0D2A848D9500980C49 /* pokemon-species-20.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-species-20.json"; sourceTree = "<group>"; };
+		A330BB0E2A848D9500980C49 /* pokemon-species-23.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-species-23.json"; sourceTree = "<group>"; };
+		A330BB0F2A848D9500980C49 /* pokemon-species-19.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-species-19.json"; sourceTree = "<group>"; };
+		A330BB102A848D9500980C49 /* pokemon-species-3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-species-3.json"; sourceTree = "<group>"; };
+		A330BB112A848D9500980C49 /* pokemon-species-15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-species-15.json"; sourceTree = "<group>"; };
+		A330BB122A848D9500980C49 /* pokemon-species-14.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-species-14.json"; sourceTree = "<group>"; };
+		A330BB132A848D9500980C49 /* pokemon-species-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-species-2.json"; sourceTree = "<group>"; };
+		A330BB142A848D9500980C49 /* pokemon-species-18.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-species-18.json"; sourceTree = "<group>"; };
+		A330BB152A848D9500980C49 /* pokemon-species-22.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-species-22.json"; sourceTree = "<group>"; };
+		A330BB162A848D9500980C49 /* pokemon-species-5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-species-5.json"; sourceTree = "<group>"; };
+		A330BB172A848D9500980C49 /* pokemon-species-29.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-species-29.json"; sourceTree = "<group>"; };
+		A330BB182A848D9500980C49 /* pokemon-species-13.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-species-13.json"; sourceTree = "<group>"; };
+		A330BB192A848D9500980C49 /* pokemon-species-9.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-species-9.json"; sourceTree = "<group>"; };
+		A330BB1A2A848D9500980C49 /* pokemon-species-25.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-species-25.json"; sourceTree = "<group>"; };
+		A330BB1B2A848D9500980C49 /* pokemon-species-24.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-species-24.json"; sourceTree = "<group>"; };
+		A330BB1C2A848D9500980C49 /* pokemon-species-8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-species-8.json"; sourceTree = "<group>"; };
+		A330BB1D2A848D9500980C49 /* pokemon-species-12.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-species-12.json"; sourceTree = "<group>"; };
+		A330BB1E2A848D9500980C49 /* pokemon-species-28.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-species-28.json"; sourceTree = "<group>"; };
+		A330BB1F2A848D9500980C49 /* pokemon-species-4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-species-4.json"; sourceTree = "<group>"; };
+		A330BB212A848D9500980C49 /* ability-34.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "ability-34.json"; sourceTree = "<group>"; };
+		A330BB222A848D9500980C49 /* ability-65.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "ability-65.json"; sourceTree = "<group>"; };
+		A330BB622A848DCF00980C49 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A330BB642A848DED00980C49 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		A330BB662A848E0200980C49 /* Ability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ability.swift; sourceTree = "<group>"; };
+		A330BB682A848E1600980C49 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		A330BB6A2A848E3200980C49 /* PokemonSpecies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonSpecies.swift; sourceTree = "<group>"; };
+		A330BB6D2A848E6600980C49 /* AbilityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbilityViewModel.swift; sourceTree = "<group>"; };
+		A330BB6F2A848E7D00980C49 /* PokemonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewModel.swift; sourceTree = "<group>"; };
+		A330BB722A848F3400980C49 /* FileStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStorage.swift; sourceTree = "<group>"; };
+		A330BB752A848F8200980C49 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		A330BB772A848F9E00980C49 /* RegisterRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRequest.swift; sourceTree = "<group>"; };
+		A330BB792A848FB500980C49 /* LoadAbilityRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadAbilityRequest.swift; sourceTree = "<group>"; };
+		A330BB7B2A848FD500980C49 /* LoadPokemonRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadPokemonRequest.swift; sourceTree = "<group>"; };
+		A330BB7D2A848FEE00980C49 /* EmailCheckingRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailCheckingRequest.swift; sourceTree = "<group>"; };
+		A330BB802A84901500980C49 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		A330BB822A84903300980C49 /* AppCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCommand.swift; sourceTree = "<group>"; };
+		A330BB872A8490D700980C49 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		A330BB892A8490EE00980C49 /* AppAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAction.swift; sourceTree = "<group>"; };
+		A330BB8B2A84910500980C49 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		A330BB8D2A84921300980C49 /* PokeMasterHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeMasterHome.swift; sourceTree = "<group>"; };
+		A330BB8F2A8492AA00980C49 /* PokemonList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonList.swift; sourceTree = "<group>"; };
+		A330BB912A8492C700980C49 /* PokemonInfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonInfoRow.swift; sourceTree = "<group>"; };
+		A330BB942A84957F00980C49 /* RadarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarView.swift; sourceTree = "<group>"; };
+		A330BB962A849D5D00980C49 /* LoadingView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView1.swift; sourceTree = "<group>"; };
+		A330BB992A849D8E00980C49 /* PokemonInfoPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonInfoPanel.swift; sourceTree = "<group>"; };
+		A330BB9B2A849E3B00980C49 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		A330BB9D2A849E6E00980C49 /* OverlaySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlaySheet.swift; sourceTree = "<group>"; };
+		A330BB9F2A849F0800980C49 /* SettingRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRootView.swift; sourceTree = "<group>"; };
+		A330BBA12A849F2200980C49 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		A330BBA52A84ACF900980C49 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		A330BBA72A84ACF900980C49 /* Landmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		A330BBA92A84ACF900980C49 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
+		A330BBAA2A84ACF900980C49 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		A330BBAD2A84ACF900980C49 /* GraphCapsule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
+		A330BBAE2A84ACF900980C49 /* HikeGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
+		A330BBAF2A84ACF900980C49 /* HikeBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
+		A330BBB02A84ACF900980C49 /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
+		A330BBB12A84ACF900980C49 /* Hike.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		A330BBB22A84ACF900980C49 /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
+		A330BBB32A84ACF900980C49 /* Landmarks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landmarks.swift; sourceTree = "<group>"; };
+		A330BBB52A84ACF900980C49 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A330BBB62A84ACF900980C49 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		A330BBB72A84ACF900980C49 /* FavoriteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		A330BBB92A84ACF900980C49 /* LandmarkList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		A330BBBA2A84ACF900980C49 /* LandmarkDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		A330BBBB2A84ACF900980C49 /* LandmarkRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		A330BBBD2A84ACF900980C49 /* ProfileSummary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
+		A330BBBE2A84ACF900980C49 /* ProfileEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
+		A330BBBF2A84ACF900980C49 /* ProfileHost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		A330BBC12A84ACF900980C49 /* CategoryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		A330BBC22A84ACF900980C49 /* CategoryHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		A330BBC32A84ACF900980C49 /* CategoryRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		A330BBC52A84ACF900980C49 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
+		A330BBC62A84ACF900980C49 /* HexagonParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		A330BBC72A84ACF900980C49 /* BadgeSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		A330BBC82A84ACF900980C49 /* BadgeBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		A330BBC92A84ACF900980C49 /* Badge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		A330BBCB2A84ACF900980C49 /* Buttons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		A330BBCC2A84ACF900980C49 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		A330BBCD2A84ACF900980C49 /* DCCourseDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCCourseDetail.swift; sourceTree = "<group>"; };
+		A330BBCE2A84ACF900980C49 /* DesignCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignCode.swift; sourceTree = "<group>"; };
+		A330BBCF2A84ACF900980C49 /* DCUpdateStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCUpdateStore.swift; sourceTree = "<group>"; };
+		A330BBD02A84ACF900980C49 /* PostList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
+		A330BBD12A84ACF900980C49 /* DesignCodeHomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignCodeHomeView.swift; sourceTree = "<group>"; };
+		A330BBD22A84ACF900980C49 /* Modifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		A330BBD32A84ACF900980C49 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		A330BBD42A84ACF900980C49 /* DCUpdateDetaile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCUpdateDetaile.swift; sourceTree = "<group>"; };
+		A330BBD52A84ACF900980C49 /* DesignCodeHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignCodeHome.swift; sourceTree = "<group>"; };
+		A330BBD62A84ACF900980C49 /* RingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		A330BBD72A84ACF900980C49 /* DCUpdateList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCUpdateList.swift; sourceTree = "<group>"; };
+		A330BBD82A84ACF900980C49 /* DCCourseList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCCourseList.swift; sourceTree = "<group>"; };
+		A330BBD92A84ACF900980C49 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		A330BC0A2A84AE8D00980C49 /* ChongdianMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChongdianMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A330BC0C2A84AE8D00980C49 /* ChongdianMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChongdianMacApp.swift; sourceTree = "<group>"; };
+		A330BC0E2A84AE8D00980C49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A330BC102A84AE8D00980C49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A330BC132A84AE8D00980C49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A330BC152A84AE8D00980C49 /* ChongdianMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChongdianMac.entitlements; sourceTree = "<group>"; };
+		A330BC192A84AF4100980C49 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		A330BC1B2A84AF5D00980C49 /* LandmarkCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCommands.swift; sourceTree = "<group>"; };
+		A330BC1D2A84AF7A00980C49 /* LandmarkSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkSettings.swift; sourceTree = "<group>"; };
+		A330BC212A84B00C00980C49 /* ChongdianWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChongdianWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A330BC262A84B00C00980C49 /* ChongdianWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChongdianWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A330BC2B2A84B00C00980C49 /* ChongdianWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChongdianWatchApp.swift; sourceTree = "<group>"; };
+		A330BC2D2A84B00C00980C49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A330BC2F2A84B00D00980C49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A330BC322A84B00D00980C49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A330BC3B2A84B04800980C49 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		A330BC572A84B4F500980C49 /* BlueToothRocketHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueToothRocketHome.swift; sourceTree = "<group>"; };
+		A330BC592A84B56400980C49 /* BPeripheralViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPeripheralViewModel.swift; sourceTree = "<group>"; };
+		A330BC5B2A84B57900980C49 /* PPCBPeripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPCBPeripheral.swift; sourceTree = "<group>"; };
+		A330BC5D2A84B58E00980C49 /* BlueToothRocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueToothRocketManager.swift; sourceTree = "<group>"; };
+		A330BC5F2A84B5BD00980C49 /* PPPeripheralDetaileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPPeripheralDetaileView.swift; sourceTree = "<group>"; };
+		A330BC632A84B76D00980C49 /* ToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		A330BC642A84B76D00980C49 /* BannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		A330BC652A84B76D00980C49 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		A330BC662A84B76D00980C49 /* DisclosureGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisclosureGroupView.swift; sourceTree = "<group>"; };
+		A330BC672A84B76D00980C49 /* SearchBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		A330BC682A84B76D00980C49 /* Eager Grids.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Eager Grids.swift"; sourceTree = "<group>"; };
+		A330BC692A84B76D00980C49 /* FormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		A330BC6A2A84B76D00980C49 /* CoreDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataView.swift; sourceTree = "<group>"; };
+		A330BC6B2A84B76D00980C49 /* SwipeCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeCardView.swift; sourceTree = "<group>"; };
+		A330BC6C2A84B76D00980C49 /* TextEditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextEditorView.swift; sourceTree = "<group>"; };
+		A330BC6D2A84B76D00980C49 /* CustomBackItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBackItem.swift; sourceTree = "<group>"; };
+		A330BC6E2A84B76D00980C49 /* NotificationToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationToastView.swift; sourceTree = "<group>"; };
+		A3A555942A85C65000ED03EC /* KeyboardResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardResponder.swift; sourceTree = "<group>"; };
+		A3A555982A8CA55100ED03EC /* ConfirmationDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialog.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A330BA902A836F3D00980C49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A330BB862A8490B200980C49 /* Kingfisher in Frameworks */,
+				A330BAA72A8371CA00980C49 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A330BC072A84AE8D00980C49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A330BC232A84B00C00980C49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A330BA8A2A836F3D00980C49 = {
+			isa = PBXGroup;
+			children = (
+				A330BAA82A8371E000980C49 /* Share */,
+				A330BA952A836F3D00980C49 /* ChongDian */,
+				A330BC0B2A84AE8D00980C49 /* ChongdianMac */,
+				A330BC2A2A84B00C00980C49 /* ChongdianWatch Watch App */,
+				A330BA942A836F3D00980C49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A330BA942A836F3D00980C49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A330BA932A836F3D00980C49 /* ChongDian.app */,
+				A330BC0A2A84AE8D00980C49 /* ChongdianMac.app */,
+				A330BC212A84B00C00980C49 /* ChongdianWatch.app */,
+				A330BC262A84B00C00980C49 /* ChongdianWatch Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A330BA952A836F3D00980C49 /* ChongDian */ = {
+			isa = PBXGroup;
+			children = (
+				A330BC622A84B76D00980C49 /* UI */,
+				A330BC562A84B4D600980C49 /* BlueToothRocket */,
+				A330BBCA2A84ACF900980C49 /* DesignCode */,
+				A330BBA32A84ACF900980C49 /* Landmarks */,
+				A330BB712A848F2400980C49 /* PropertyWrapper */,
+				A330BB612A848DAD00980C49 /* Model */,
+				A330BAD42A848B4E00980C49 /* Tools */,
+				A330BAD32A848B1900980C49 /* PokeMaster */,
+				A330BAD02A848A9400980C49 /* Extention */,
+				A330BACD2A838B4700980C49 /* Views */,
+				A330BAC82A83889800980C49 /* Home */,
+				A330BABE2A83749800980C49 /* UIKItView */,
+				A330BAAA2A8372C500980C49 /* Login */,
+				A330BA962A836F3D00980C49 /* ChongDianApp.swift */,
+				A330BAC62A837E0100980C49 /* HomeTabView.swift */,
+				A330BA9A2A836F3E00980C49 /* Assets.xcassets */,
+				A330BA9C2A836F3E00980C49 /* ChongDian.entitlements */,
+				A330BA9D2A836F3E00980C49 /* Preview Content */,
+				A330BABA2A83736500980C49 /* AppModel.swift */,
+			);
+			path = ChongDian;
+			sourceTree = "<group>";
+		};
+		A330BA9D2A836F3E00980C49 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A330BA9E2A836F3E00980C49 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A330BAA82A8371E000980C49 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				A330BBA82A84ACF900980C49 /* Resource */,
+				A330BBB72A84ACF900980C49 /* FavoriteButton.swift */,
+				A330BBB62A84ACF900980C49 /* CircleImage.swift */,
+				A330BBB52A84ACF900980C49 /* MapView.swift */,
+				A330BBBB2A84ACF900980C49 /* LandmarkRow.swift */,
+				A330BBB12A84ACF900980C49 /* Hike.swift */,
+				A330BBA52A84ACF900980C49 /* Profile.swift */,
+				A330BABC2A8373FB00980C49 /* LandmarkModel.swift */,
+				A330BBA72A84ACF900980C49 /* Landmark.swift */,
+				A330BBB92A84ACF900980C49 /* LandmarkList.swift */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
+		A330BAAA2A8372C500980C49 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A330BAAB2A8372C500980C49 /* LoginViewModel.swift */,
+				A330BAC42A8378AA00980C49 /* LoginCoverView.swift */,
+				A330BAAC2A8372C500980C49 /* LoginView.swift */,
+				A330BAAD2A8372C500980C49 /* SuccessView.swift */,
+				A330BAAE2A8372C500980C49 /* LottieView.swift */,
+				A330BAAF2A8372C500980C49 /* Lottie */,
+				A330BAB22A8372C500980C49 /* LoadingView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A330BAAF2A8372C500980C49 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				A330BAB02A8372C500980C49 /* loading.json */,
+				A330BAB12A8372C500980C49 /* success.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		A330BABE2A83749800980C49 /* UIKItView */ = {
+			isa = PBXGroup;
+			children = (
+				A330BABF2A8374B000980C49 /* BlurView.swift */,
+				A330BB9B2A849E3B00980C49 /* SafariView.swift */,
+			);
+			path = UIKItView;
+			sourceTree = "<group>";
+		};
+		A330BAC82A83889800980C49 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A330BACB2A83890500980C49 /* UISmallAppsHome.swift */,
+				A330BAC92A8388BD00980C49 /* UIHome.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A330BACD2A838B4700980C49 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A330BACE2A838B6100980C49 /* MyButton.swift */,
+				A330BB9D2A849E6E00980C49 /* OverlaySheet.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A330BAD02A848A9400980C49 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				A330BAD12A848AA900980C49 /* DoubleEx.swift */,
+				A330BAD72A848B9000980C49 /* ColorEx.swift */,
+				A330BAD92A848BF900980C49 /* ArrayEx.swift */,
+				A330BADB2A848C1E00980C49 /* UrlEx.swift */,
+				A330BADD2A848C3700980C49 /* StringEx.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		A330BAD32A848B1900980C49 /* PokeMaster */ = {
+			isa = PBXGroup;
+			children = (
+				A330BB982A849D8100980C49 /* Panel */,
+				A330BB932A84957100980C49 /* View */,
+				A330BB7F2A84900400980C49 /* DataFlow */,
+				A330BB742A848F7300980C49 /* Networking */,
+				A330BB6C2A848E5700980C49 /* VM */,
+				A330BAE12A848D9500980C49 /* JSON */,
+				A330BADF2A848C6900980C49 /* SampleData.swift */,
+				A330BB8D2A84921300980C49 /* PokeMasterHome.swift */,
+				A330BB8F2A8492AA00980C49 /* PokemonList.swift */,
+				A330BB912A8492C700980C49 /* PokemonInfoRow.swift */,
+				A330BB9F2A849F0800980C49 /* SettingRootView.swift */,
+				A330BBA12A849F2200980C49 /* SettingView.swift */,
+			);
+			path = PokeMaster;
+			sourceTree = "<group>";
+		};
+		A330BAD42A848B4E00980C49 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A330BAD52A848B5F00980C49 /* FileHelper.swift */,
+				A3A555942A85C65000ED03EC /* KeyboardResponder.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A330BAE12A848D9500980C49 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				A330BAE22A848D9500980C49 /* pokemon */,
+				A330BB012A848D9500980C49 /* species */,
+				A330BB202A848D9500980C49 /* abilities */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		A330BAE22A848D9500980C49 /* pokemon */ = {
+			isa = PBXGroup;
+			children = (
+				A330BAE32A848D9500980C49 /* pokemon-7.json */,
+				A330BAE42A848D9500980C49 /* pokemon-14.json */,
+				A330BAE52A848D9500980C49 /* pokemon-22.json */,
+				A330BAE62A848D9500980C49 /* pokemon-18.json */,
+				A330BAE72A848D9500980C49 /* pokemon-19.json */,
+				A330BAE82A848D9500980C49 /* pokemon-23.json */,
+				A330BAE92A848D9500980C49 /* pokemon-15.json */,
+				A330BAEA2A848D9500980C49 /* pokemon-6.json */,
+				A330BAEB2A848D9500980C49 /* pokemon-24.json */,
+				A330BAEC2A848D9500980C49 /* pokemon-28.json */,
+				A330BAED2A848D9500980C49 /* pokemon-1.json */,
+				A330BAEE2A848D9500980C49 /* pokemon-12.json */,
+				A330BAEF2A848D9500980C49 /* pokemon-13.json */,
+				A330BAF02A848D9500980C49 /* pokemon-29.json */,
+				A330BAF12A848D9500980C49 /* pokemon-25.json */,
+				A330BAF22A848D9500980C49 /* pokemon-26.json */,
+				A330BAF32A848D9500980C49 /* pokemon-30.json */,
+				A330BAF42A848D9500980C49 /* pokemon-10.json */,
+				A330BAF52A848D9500980C49 /* pokemon-3.json */,
+				A330BAF62A848D9500980C49 /* pokemon-2.json */,
+				A330BAF72A848D9500980C49 /* pokemon-11.json */,
+				A330BAF82A848D9500980C49 /* pokemon-27.json */,
+				A330BAF92A848D9500980C49 /* pokemon-16.json */,
+				A330BAFA2A848D9500980C49 /* pokemon-5.json */,
+				A330BAFB2A848D9500980C49 /* pokemon-9.json */,
+				A330BAFC2A848D9500980C49 /* pokemon-20.json */,
+				A330BAFD2A848D9500980C49 /* pokemon-21.json */,
+				A330BAFE2A848D9500980C49 /* pokemon-8.json */,
+				A330BAFF2A848D9500980C49 /* pokemon-4.json */,
+				A330BB002A848D9500980C49 /* pokemon-17.json */,
+			);
+			path = pokemon;
+			sourceTree = "<group>";
+		};
+		A330BB012A848D9500980C49 /* species */ = {
+			isa = PBXGroup;
+			children = (
+				A330BB022A848D9500980C49 /* pokemon-species-11.json */,
+				A330BB032A848D9500980C49 /* pokemon-species-7.json */,
+				A330BB042A848D9500980C49 /* pokemon-species-27.json */,
+				A330BB052A848D9500980C49 /* pokemon-species-30.json */,
+				A330BB062A848D9500980C49 /* pokemon-species-26.json */,
+				A330BB072A848D9500980C49 /* pokemon-species-6.json */,
+				A330BB082A848D9500980C49 /* pokemon-species-10.json */,
+				A330BB092A848D9500980C49 /* pokemon-species-21.json */,
+				A330BB0A2A848D9500980C49 /* pokemon-species-17.json */,
+				A330BB0B2A848D9500980C49 /* pokemon-species-1.json */,
+				A330BB0C2A848D9500980C49 /* pokemon-species-16.json */,
+				A330BB0D2A848D9500980C49 /* pokemon-species-20.json */,
+				A330BB0E2A848D9500980C49 /* pokemon-species-23.json */,
+				A330BB0F2A848D9500980C49 /* pokemon-species-19.json */,
+				A330BB102A848D9500980C49 /* pokemon-species-3.json */,
+				A330BB112A848D9500980C49 /* pokemon-species-15.json */,
+				A330BB122A848D9500980C49 /* pokemon-species-14.json */,
+				A330BB132A848D9500980C49 /* pokemon-species-2.json */,
+				A330BB142A848D9500980C49 /* pokemon-species-18.json */,
+				A330BB152A848D9500980C49 /* pokemon-species-22.json */,
+				A330BB162A848D9500980C49 /* pokemon-species-5.json */,
+				A330BB172A848D9500980C49 /* pokemon-species-29.json */,
+				A330BB182A848D9500980C49 /* pokemon-species-13.json */,
+				A330BB192A848D9500980C49 /* pokemon-species-9.json */,
+				A330BB1A2A848D9500980C49 /* pokemon-species-25.json */,
+				A330BB1B2A848D9500980C49 /* pokemon-species-24.json */,
+				A330BB1C2A848D9500980C49 /* pokemon-species-8.json */,
+				A330BB1D2A848D9500980C49 /* pokemon-species-12.json */,
+				A330BB1E2A848D9500980C49 /* pokemon-species-28.json */,
+				A330BB1F2A848D9500980C49 /* pokemon-species-4.json */,
+			);
+			path = species;
+			sourceTree = "<group>";
+		};
+		A330BB202A848D9500980C49 /* abilities */ = {
+			isa = PBXGroup;
+			children = (
+				A330BB212A848D9500980C49 /* ability-34.json */,
+				A330BB222A848D9500980C49 /* ability-65.json */,
+			);
+			path = abilities;
+			sourceTree = "<group>";
+		};
+		A330BB612A848DAD00980C49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A330BB622A848DCF00980C49 /* User.swift */,
+				A330BB642A848DED00980C49 /* Language.swift */,
+				A330BB662A848E0200980C49 /* Ability.swift */,
+				A330BB682A848E1600980C49 /* Pokemon.swift */,
+				A330BB6A2A848E3200980C49 /* PokemonSpecies.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A330BB6C2A848E5700980C49 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				A330BB6D2A848E6600980C49 /* AbilityViewModel.swift */,
+				A330BB6F2A848E7D00980C49 /* PokemonViewModel.swift */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		A330BB712A848F2400980C49 /* PropertyWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				A330BB722A848F3400980C49 /* FileStorage.swift */,
+			);
+			path = PropertyWrapper;
+			sourceTree = "<group>";
+		};
+		A330BB742A848F7300980C49 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A330BB752A848F8200980C49 /* LoginRequest.swift */,
+				A330BB772A848F9E00980C49 /* RegisterRequest.swift */,
+				A330BB792A848FB500980C49 /* LoadAbilityRequest.swift */,
+				A330BB7B2A848FD500980C49 /* LoadPokemonRequest.swift */,
+				A330BB7D2A848FEE00980C49 /* EmailCheckingRequest.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A330BB7F2A84900400980C49 /* DataFlow */ = {
+			isa = PBXGroup;
+			children = (
+				A330BB802A84901500980C49 /* AppState.swift */,
+				A330BB822A84903300980C49 /* AppCommand.swift */,
+				A330BB872A8490D700980C49 /* AppError.swift */,
+				A330BB892A8490EE00980C49 /* AppAction.swift */,
+				A330BB8B2A84910500980C49 /* Store.swift */,
+			);
+			path = DataFlow;
+			sourceTree = "<group>";
+		};
+		A330BB932A84957100980C49 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A330BB942A84957F00980C49 /* RadarView.swift */,
+				A330BB962A849D5D00980C49 /* LoadingView1.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A330BB982A849D8100980C49 /* Panel */ = {
+			isa = PBXGroup;
+			children = (
+				A330BB992A849D8E00980C49 /* PokemonInfoPanel.swift */,
+			);
+			path = Panel;
+			sourceTree = "<group>";
+		};
+		A330BBA32A84ACF900980C49 /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				A330BBA42A84ACF900980C49 /* Model */,
+				A330BBAB2A84ACF900980C49 /* Views */,
+			);
+			path = Landmarks;
+			sourceTree = "<group>";
+		};
+		A330BBA42A84ACF900980C49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A330BBA82A84ACF900980C49 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A330BBA92A84ACF900980C49 /* hikeData.json */,
+				A330BBAA2A84ACF900980C49 /* landmarkData.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		A330BBAB2A84ACF900980C49 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A330BBAC2A84ACF900980C49 /* Hikes */,
+				A330BBB32A84ACF900980C49 /* Landmarks.swift */,
+				A330BBB82A84ACF900980C49 /* Landmarks */,
+				A330BBBC2A84ACF900980C49 /* Profiles */,
+				A330BBC02A84ACF900980C49 /* Categories */,
+				A330BBC42A84ACF900980C49 /* Badge */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A330BBAC2A84ACF900980C49 /* Hikes */ = {
+			isa = PBXGroup;
+			children = (
+				A330BBAD2A84ACF900980C49 /* GraphCapsule.swift */,
+				A330BBAE2A84ACF900980C49 /* HikeGraph.swift */,
+				A330BBAF2A84ACF900980C49 /* HikeBadge.swift */,
+				A330BBB02A84ACF900980C49 /* HikeDetail.swift */,
+				A330BBB22A84ACF900980C49 /* HikeView.swift */,
+			);
+			path = Hikes;
+			sourceTree = "<group>";
+		};
+		A330BBB82A84ACF900980C49 /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				A330BBBA2A84ACF900980C49 /* LandmarkDetail.swift */,
+			);
+			path = Landmarks;
+			sourceTree = "<group>";
+		};
+		A330BBBC2A84ACF900980C49 /* Profiles */ = {
+			isa = PBXGroup;
+			children = (
+				A330BBBD2A84ACF900980C49 /* ProfileSummary.swift */,
+				A330BBBE2A84ACF900980C49 /* ProfileEditor.swift */,
+				A330BBBF2A84ACF900980C49 /* ProfileHost.swift */,
+			);
+			path = Profiles;
+			sourceTree = "<group>";
+		};
+		A330BBC02A84ACF900980C49 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A330BBC12A84ACF900980C49 /* CategoryItem.swift */,
+				A330BBC22A84ACF900980C49 /* CategoryHome.swift */,
+				A330BBC32A84ACF900980C49 /* CategoryRow.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		A330BBC42A84ACF900980C49 /* Badge */ = {
+			isa = PBXGroup;
+			children = (
+				A330BBC52A84ACF900980C49 /* RotatedBadgeSymbol.swift */,
+				A330BBC62A84ACF900980C49 /* HexagonParameters.swift */,
+				A330BBC72A84ACF900980C49 /* BadgeSymbol.swift */,
+				A330BBC82A84ACF900980C49 /* BadgeBackground.swift */,
+				A330BBC92A84ACF900980C49 /* Badge.swift */,
+			);
+			path = Badge;
+			sourceTree = "<group>";
+		};
+		A330BBCA2A84ACF900980C49 /* DesignCode */ = {
+			isa = PBXGroup;
+			children = (
+				A330BBCB2A84ACF900980C49 /* Buttons.swift */,
+				A330BBCC2A84ACF900980C49 /* Data.swift */,
+				A330BBCD2A84ACF900980C49 /* DCCourseDetail.swift */,
+				A330BBCE2A84ACF900980C49 /* DesignCode.swift */,
+				A330BBCF2A84ACF900980C49 /* DCUpdateStore.swift */,
+				A330BBD02A84ACF900980C49 /* PostList.swift */,
+				A330BBD12A84ACF900980C49 /* DesignCodeHomeView.swift */,
+				A330BBD22A84ACF900980C49 /* Modifiers.swift */,
+				A330BBD32A84ACF900980C49 /* DataStore.swift */,
+				A330BBD42A84ACF900980C49 /* DCUpdateDetaile.swift */,
+				A330BBD52A84ACF900980C49 /* DesignCodeHome.swift */,
+				A330BBD62A84ACF900980C49 /* RingView.swift */,
+				A330BBD72A84ACF900980C49 /* DCUpdateList.swift */,
+				A330BBD82A84ACF900980C49 /* DCCourseList.swift */,
+				A330BBD92A84ACF900980C49 /* MenuView.swift */,
+			);
+			path = DesignCode;
+			sourceTree = "<group>";
+		};
+		A330BC0B2A84AE8D00980C49 /* ChongdianMac */ = {
+			isa = PBXGroup;
+			children = (
+				A330BC0C2A84AE8D00980C49 /* ChongdianMacApp.swift */,
+				A330BC0E2A84AE8D00980C49 /* ContentView.swift */,
+				A330BC192A84AF4100980C49 /* LandmarkDetail.swift */,
+				A330BC1B2A84AF5D00980C49 /* LandmarkCommands.swift */,
+				A330BC1D2A84AF7A00980C49 /* LandmarkSettings.swift */,
+				A330BC102A84AE8D00980C49 /* Assets.xcassets */,
+				A330BC152A84AE8D00980C49 /* ChongdianMac.entitlements */,
+				A330BC122A84AE8D00980C49 /* Preview Content */,
+			);
+			path = ChongdianMac;
+			sourceTree = "<group>";
+		};
+		A330BC122A84AE8D00980C49 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A330BC132A84AE8D00980C49 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A330BC2A2A84B00C00980C49 /* ChongdianWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				A330BC2B2A84B00C00980C49 /* ChongdianWatchApp.swift */,
+				A330BC2D2A84B00C00980C49 /* ContentView.swift */,
+				A330BC3B2A84B04800980C49 /* LandmarkDetail.swift */,
+				A330BC2F2A84B00D00980C49 /* Assets.xcassets */,
+				A330BC312A84B00D00980C49 /* Preview Content */,
+			);
+			path = "ChongdianWatch Watch App";
+			sourceTree = "<group>";
+		};
+		A330BC312A84B00D00980C49 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A330BC322A84B00D00980C49 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A330BC562A84B4D600980C49 /* BlueToothRocket */ = {
+			isa = PBXGroup;
+			children = (
+				A330BC572A84B4F500980C49 /* BlueToothRocketHome.swift */,
+				A330BC592A84B56400980C49 /* BPeripheralViewModel.swift */,
+				A330BC5B2A84B57900980C49 /* PPCBPeripheral.swift */,
+				A330BC5D2A84B58E00980C49 /* BlueToothRocketManager.swift */,
+				A330BC5F2A84B5BD00980C49 /* PPPeripheralDetaileView.swift */,
+			);
+			path = BlueToothRocket;
+			sourceTree = "<group>";
+		};
+		A330BC622A84B76D00980C49 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A330BC632A84B76D00980C49 /* ToDoItem.swift */,
+				A330BC642A84B76D00980C49 /* BannerView.swift */,
+				A330BC652A84B76D00980C49 /* ProgressView.swift */,
+				A330BC662A84B76D00980C49 /* DisclosureGroupView.swift */,
+				A330BC672A84B76D00980C49 /* SearchBarView.swift */,
+				A330BC682A84B76D00980C49 /* Eager Grids.swift */,
+				A330BC692A84B76D00980C49 /* FormView.swift */,
+				A330BC6A2A84B76D00980C49 /* CoreDataView.swift */,
+				A330BC6B2A84B76D00980C49 /* SwipeCardView.swift */,
+				A330BC6C2A84B76D00980C49 /* TextEditorView.swift */,
+				A330BC6D2A84B76D00980C49 /* CustomBackItem.swift */,
+				A330BC6E2A84B76D00980C49 /* NotificationToastView.swift */,
+				A3A555982A8CA55100ED03EC /* ConfirmationDialog.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A330BA922A836F3D00980C49 /* ChongDian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A330BAA22A836F3E00980C49 /* Build configuration list for PBXNativeTarget "ChongDian" */;
+			buildPhases = (
+				A330BA8F2A836F3D00980C49 /* Sources */,
+				A330BA902A836F3D00980C49 /* Frameworks */,
+				A330BA912A836F3D00980C49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChongDian;
+			packageProductDependencies = (
+				A330BAA62A8371CA00980C49 /* Lottie */,
+				A330BB852A8490B200980C49 /* Kingfisher */,
+			);
+			productName = ChongDian;
+			productReference = A330BA932A836F3D00980C49 /* ChongDian.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A330BC092A84AE8D00980C49 /* ChongdianMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A330BC162A84AE8D00980C49 /* Build configuration list for PBXNativeTarget "ChongdianMac" */;
+			buildPhases = (
+				A330BC062A84AE8D00980C49 /* Sources */,
+				A330BC072A84AE8D00980C49 /* Frameworks */,
+				A330BC082A84AE8D00980C49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChongdianMac;
+			productName = ChongdianMac;
+			productReference = A330BC0A2A84AE8D00980C49 /* ChongdianMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A330BC202A84B00C00980C49 /* ChongdianWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A330BC382A84B00D00980C49 /* Build configuration list for PBXNativeTarget "ChongdianWatch" */;
+			buildPhases = (
+				A330BC1F2A84B00C00980C49 /* Resources */,
+				A330BC372A84B00D00980C49 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A330BC292A84B00C00980C49 /* PBXTargetDependency */,
+			);
+			name = ChongdianWatch;
+			productName = ChongdianWatch;
+			productReference = A330BC212A84B00C00980C49 /* ChongdianWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		A330BC252A84B00C00980C49 /* ChongdianWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A330BC342A84B00D00980C49 /* Build configuration list for PBXNativeTarget "ChongdianWatch Watch App" */;
+			buildPhases = (
+				A330BC222A84B00C00980C49 /* Sources */,
+				A330BC232A84B00C00980C49 /* Frameworks */,
+				A330BC242A84B00C00980C49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ChongdianWatch Watch App";
+			productName = "ChongdianWatch Watch App";
+			productReference = A330BC262A84B00C00980C49 /* ChongdianWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A330BA8B2A836F3D00980C49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A330BA922A836F3D00980C49 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					A330BC092A84AE8D00980C49 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					A330BC202A84B00C00980C49 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					A330BC252A84B00C00980C49 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A330BA8E2A836F3D00980C49 /* Build configuration list for PBXProject "ChongDian" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A330BA8A2A836F3D00980C49;
+			packageReferences = (
+				A330BAA52A8371CA00980C49 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				A330BB842A8490B200980C49 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = A330BA942A836F3D00980C49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A330BA922A836F3D00980C49 /* ChongDian */,
+				A330BC092A84AE8D00980C49 /* ChongdianMac */,
+				A330BC202A84B00C00980C49 /* ChongdianWatch */,
+				A330BC252A84B00C00980C49 /* ChongdianWatch Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A330BA912A836F3D00980C49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A330BB2E2A848D9500980C49 /* pokemon-12.json in Resources */,
+				A330BB512A848D9500980C49 /* pokemon-species-14.json in Resources */,
+				A330BB322A848D9500980C49 /* pokemon-26.json in Resources */,
+				A330BB532A848D9500980C49 /* pokemon-species-18.json in Resources */,
+				A330BB392A848D9500980C49 /* pokemon-16.json in Resources */,
+				A330BB5C2A848D9500980C49 /* pokemon-species-12.json in Resources */,
+				A330BB572A848D9500980C49 /* pokemon-species-13.json in Resources */,
+				A330BB552A848D9500980C49 /* pokemon-species-5.json in Resources */,
+				A330BA9F2A836F3E00980C49 /* Preview Assets.xcassets in Resources */,
+				A330BB542A848D9500980C49 /* pokemon-species-22.json in Resources */,
+				A330BB302A848D9500980C49 /* pokemon-29.json in Resources */,
+				A330BB472A848D9500980C49 /* pokemon-species-10.json in Resources */,
+				A330BB412A848D9500980C49 /* pokemon-species-11.json in Resources */,
+				A330BB602A848D9500980C49 /* ability-65.json in Resources */,
+				A330BBDD2A84ACF900980C49 /* hikeData.json in Resources */,
+				A330BB482A848D9500980C49 /* pokemon-species-21.json in Resources */,
+				A330BB2B2A848D9500980C49 /* pokemon-24.json in Resources */,
+				A330BB2F2A848D9500980C49 /* pokemon-13.json in Resources */,
+				A330BB522A848D9500980C49 /* pokemon-species-2.json in Resources */,
+				A330BB352A848D9500980C49 /* pokemon-3.json in Resources */,
+				A330BB4D2A848D9500980C49 /* pokemon-species-23.json in Resources */,
+				A330BB342A848D9500980C49 /* pokemon-10.json in Resources */,
+				A330BAB82A8372C500980C49 /* success.json in Resources */,
+				A330BB492A848D9500980C49 /* pokemon-species-17.json in Resources */,
+				A330BB282A848D9500980C49 /* pokemon-23.json in Resources */,
+				A330BB272A848D9500980C49 /* pokemon-19.json in Resources */,
+				A330BB2C2A848D9500980C49 /* pokemon-28.json in Resources */,
+				A330BB432A848D9500980C49 /* pokemon-species-27.json in Resources */,
+				A330BB3F2A848D9500980C49 /* pokemon-4.json in Resources */,
+				A330BB242A848D9500980C49 /* pokemon-14.json in Resources */,
+				A330BB4F2A848D9500980C49 /* pokemon-species-3.json in Resources */,
+				A330BB2D2A848D9500980C49 /* pokemon-1.json in Resources */,
+				A330BB3D2A848D9500980C49 /* pokemon-21.json in Resources */,
+				A330BB462A848D9500980C49 /* pokemon-species-6.json in Resources */,
+				A330BB362A848D9500980C49 /* pokemon-2.json in Resources */,
+				A330BB5A2A848D9500980C49 /* pokemon-species-24.json in Resources */,
+				A330BB5B2A848D9500980C49 /* pokemon-species-8.json in Resources */,
+				A330BBDE2A84ACF900980C49 /* landmarkData.json in Resources */,
+				A330BB372A848D9500980C49 /* pokemon-11.json in Resources */,
+				A330BB232A848D9500980C49 /* pokemon-7.json in Resources */,
+				A330BB582A848D9500980C49 /* pokemon-species-9.json in Resources */,
+				A330BB562A848D9500980C49 /* pokemon-species-29.json in Resources */,
+				A330BB332A848D9500980C49 /* pokemon-30.json in Resources */,
+				A330BB3E2A848D9500980C49 /* pokemon-8.json in Resources */,
+				A330BB382A848D9500980C49 /* pokemon-27.json in Resources */,
+				A330BB442A848D9500980C49 /* pokemon-species-30.json in Resources */,
+				A330BB2A2A848D9500980C49 /* pokemon-6.json in Resources */,
+				A330BB5F2A848D9500980C49 /* ability-34.json in Resources */,
+				A330BB292A848D9500980C49 /* pokemon-15.json in Resources */,
+				A330BB4C2A848D9500980C49 /* pokemon-species-20.json in Resources */,
+				A330BB592A848D9500980C49 /* pokemon-species-25.json in Resources */,
+				A330BB402A848D9500980C49 /* pokemon-17.json in Resources */,
+				A330BB5D2A848D9500980C49 /* pokemon-species-28.json in Resources */,
+				A330BB5E2A848D9500980C49 /* pokemon-species-4.json in Resources */,
+				A330BB252A848D9500980C49 /* pokemon-22.json in Resources */,
+				A330BB4A2A848D9500980C49 /* pokemon-species-1.json in Resources */,
+				A330BB3C2A848D9500980C49 /* pokemon-20.json in Resources */,
+				A330BB452A848D9500980C49 /* pokemon-species-26.json in Resources */,
+				A330BB502A848D9500980C49 /* pokemon-species-15.json in Resources */,
+				A330BB312A848D9500980C49 /* pokemon-25.json in Resources */,
+				A330BB4E2A848D9500980C49 /* pokemon-species-19.json in Resources */,
+				A330BA9B2A836F3E00980C49 /* Assets.xcassets in Resources */,
+				A330BB3A2A848D9500980C49 /* pokemon-5.json in Resources */,
+				A330BB422A848D9500980C49 /* pokemon-species-7.json in Resources */,
+				A330BB262A848D9500980C49 /* pokemon-18.json in Resources */,
+				A330BB4B2A848D9500980C49 /* pokemon-species-16.json in Resources */,
+				A330BB3B2A848D9500980C49 /* pokemon-9.json in Resources */,
+				A330BAB72A8372C500980C49 /* loading.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A330BC082A84AE8D00980C49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A330BC142A84AE8D00980C49 /* Preview Assets.xcassets in Resources */,
+				A330BC512A84B30900980C49 /* landmarkData.json in Resources */,
+				A330BC4F2A84B30500980C49 /* hikeData.json in Resources */,
+				A330BC112A84AE8D00980C49 /* Assets.xcassets in Resources */,
+				A330BC532A84B35200980C49 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A330BC1F2A84B00C00980C49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A330BC552A84B35300980C49 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A330BC242A84B00C00980C49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A330BC332A84B00D00980C49 /* Preview Assets.xcassets in Resources */,
+				A330BC522A84B30900980C49 /* landmarkData.json in Resources */,
+				A330BC502A84B30600980C49 /* hikeData.json in Resources */,
+				A330BC302A84B00D00980C49 /* Assets.xcassets in Resources */,
+				A330BC542A84B35300980C49 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A330BA8F2A836F3D00980C49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A330BC702A84B76D00980C49 /* BannerView.swift in Sources */,
+				A330BB7E2A848FEE00980C49 /* EmailCheckingRequest.swift in Sources */,
+				A330BA972A836F3D00980C49 /* ChongDianApp.swift in Sources */,
+				A330BAE02A848C6900980C49 /* SampleData.swift in Sources */,
+				A330BBE32A84ACF900980C49 /* Hike.swift in Sources */,
+				A330BB8E2A84921300980C49 /* PokeMasterHome.swift in Sources */,
+				A330BAD82A848B9000980C49 /* ColorEx.swift in Sources */,
+				A330BB762A848F8200980C49 /* LoginRequest.swift in Sources */,
+				A330BC582A84B4F500980C49 /* BlueToothRocketHome.swift in Sources */,
+				A330BC052A84ACF900980C49 /* MenuView.swift in Sources */,
+				A330BACF2A838B6100980C49 /* MyButton.swift in Sources */,
+				A330BBDF2A84ACF900980C49 /* GraphCapsule.swift in Sources */,
+				A330BACA2A8388BD00980C49 /* UIHome.swift in Sources */,
+				A330BC002A84ACF900980C49 /* DCUpdateDetaile.swift in Sources */,
+				A330BB732A848F3400980C49 /* FileStorage.swift in Sources */,
+				A330BB692A848E1600980C49 /* Pokemon.swift in Sources */,
+				A330BADC2A848C1E00980C49 /* UrlEx.swift in Sources */,
+				A330BB7C2A848FD500980C49 /* LoadPokemonRequest.swift in Sources */,
+				A330BBF72A84ACF900980C49 /* Buttons.swift in Sources */,
+				A330BAB52A8372C500980C49 /* SuccessView.swift in Sources */,
+				A330BBFE2A84ACF900980C49 /* Modifiers.swift in Sources */,
+				A330BC742A84B76D00980C49 /* Eager Grids.swift in Sources */,
+				A330BB7A2A848FB500980C49 /* LoadAbilityRequest.swift in Sources */,
+				A330BB6B2A848E3200980C49 /* PokemonSpecies.swift in Sources */,
+				A330BB782A848F9E00980C49 /* RegisterRequest.swift in Sources */,
+				A330BABB2A83736500980C49 /* AppModel.swift in Sources */,
+				A330BC732A84B76D00980C49 /* SearchBarView.swift in Sources */,
+				A330BC032A84ACF900980C49 /* DCUpdateList.swift in Sources */,
+				A330BB812A84901500980C49 /* AppState.swift in Sources */,
+				A330BB882A8490D700980C49 /* AppError.swift in Sources */,
+				A330BB702A848E7D00980C49 /* PokemonViewModel.swift in Sources */,
+				A330BBF12A84ACF900980C49 /* CategoryRow.swift in Sources */,
+				A330BB8A2A8490EE00980C49 /* AppAction.swift in Sources */,
+				A330BB952A84957F00980C49 /* RadarView.swift in Sources */,
+				A3A555952A85C65000ED03EC /* KeyboardResponder.swift in Sources */,
+				A330BAC52A8378AA00980C49 /* LoginCoverView.swift in Sources */,
+				A330BC792A84B76D00980C49 /* CustomBackItem.swift in Sources */,
+				A330BABD2A8373FB00980C49 /* LandmarkModel.swift in Sources */,
+				A330BC5C2A84B57900980C49 /* PPCBPeripheral.swift in Sources */,
+				A330BB632A848DCF00980C49 /* User.swift in Sources */,
+				A330BAB42A8372C500980C49 /* LoginView.swift in Sources */,
+				A330BB9A2A849D8E00980C49 /* PokemonInfoPanel.swift in Sources */,
+				A330BB6E2A848E6600980C49 /* AbilityViewModel.swift in Sources */,
+				A330BBE92A84ACF900980C49 /* LandmarkList.swift in Sources */,
+				A330BBEC2A84ACF900980C49 /* ProfileSummary.swift in Sources */,
+				A330BC762A84B76D00980C49 /* CoreDataView.swift in Sources */,
+				A330BC5E2A84B58E00980C49 /* BlueToothRocketManager.swift in Sources */,
+				A330BAB32A8372C500980C49 /* LoginViewModel.swift in Sources */,
+				A330BAC02A8374B000980C49 /* BlurView.swift in Sources */,
+				A330BC012A84ACF900980C49 /* DesignCodeHome.swift in Sources */,
+				A330BC782A84B76D00980C49 /* TextEditorView.swift in Sources */,
+				A330BBE42A84ACF900980C49 /* HikeView.swift in Sources */,
+				A3A555992A8CA55100ED03EC /* ConfirmationDialog.swift in Sources */,
+				A330BBF62A84ACF900980C49 /* Badge.swift in Sources */,
+				A330BACC2A83890500980C49 /* UISmallAppsHome.swift in Sources */,
+				A330BADE2A848C3700980C49 /* StringEx.swift in Sources */,
+				A330BC722A84B76D00980C49 /* DisclosureGroupView.swift in Sources */,
+				A330BADA2A848BF900980C49 /* ArrayEx.swift in Sources */,
+				A330BBE62A84ACF900980C49 /* MapView.swift in Sources */,
+				A330BB9E2A849E6E00980C49 /* OverlaySheet.swift in Sources */,
+				A330BAD62A848B5F00980C49 /* FileHelper.swift in Sources */,
+				A330BBF52A84ACF900980C49 /* BadgeBackground.swift in Sources */,
+				A330BBFD2A84ACF900980C49 /* DesignCodeHomeView.swift in Sources */,
+				A330BC752A84B76D00980C49 /* FormView.swift in Sources */,
+				A330BBE02A84ACF900980C49 /* HikeGraph.swift in Sources */,
+				A330BBF92A84ACF900980C49 /* DCCourseDetail.swift in Sources */,
+				A330BC6F2A84B76D00980C49 /* ToDoItem.swift in Sources */,
+				A330BAB92A8372C500980C49 /* LoadingView.swift in Sources */,
+				A330BC5A2A84B56400980C49 /* BPeripheralViewModel.swift in Sources */,
+				A330BC602A84B5BD00980C49 /* PPPeripheralDetaileView.swift in Sources */,
+				A330BBF42A84ACF900980C49 /* BadgeSymbol.swift in Sources */,
+				A330BBE22A84ACF900980C49 /* HikeDetail.swift in Sources */,
+				A330BBFF2A84ACF900980C49 /* DataStore.swift in Sources */,
+				A330BBEA2A84ACF900980C49 /* LandmarkDetail.swift in Sources */,
+				A330BBF32A84ACF900980C49 /* HexagonParameters.swift in Sources */,
+				A330BBF22A84ACF900980C49 /* RotatedBadgeSymbol.swift in Sources */,
+				A330BBED2A84ACF900980C49 /* ProfileEditor.swift in Sources */,
+				A330BC022A84ACF900980C49 /* RingView.swift in Sources */,
+				A330BAC72A837E0100980C49 /* HomeTabView.swift in Sources */,
+				A330BB9C2A849E3B00980C49 /* SafariView.swift in Sources */,
+				A330BBDC2A84ACF900980C49 /* Landmark.swift in Sources */,
+				A330BB8C2A84910500980C49 /* Store.swift in Sources */,
+				A330BBEE2A84ACF900980C49 /* ProfileHost.swift in Sources */,
+				A330BBE52A84ACF900980C49 /* Landmarks.swift in Sources */,
+				A330BB832A84903300980C49 /* AppCommand.swift in Sources */,
+				A330BB902A8492AA00980C49 /* PokemonList.swift in Sources */,
+				A330BBEF2A84ACF900980C49 /* CategoryItem.swift in Sources */,
+				A330BBFA2A84ACF900980C49 /* DesignCode.swift in Sources */,
+				A330BC612A84B63600980C49 /* LandmarkCommands.swift in Sources */,
+				A330BBE12A84ACF900980C49 /* HikeBadge.swift in Sources */,
+				A330BBEB2A84ACF900980C49 /* LandmarkRow.swift in Sources */,
+				A330BBDA2A84ACF900980C49 /* Profile.swift in Sources */,
+				A330BAD22A848AA900980C49 /* DoubleEx.swift in Sources */,
+				A330BC772A84B76D00980C49 /* SwipeCardView.swift in Sources */,
+				A330BBFC2A84ACF900980C49 /* PostList.swift in Sources */,
+				A330BB972A849D5D00980C49 /* LoadingView1.swift in Sources */,
+				A330BB922A8492C700980C49 /* PokemonInfoRow.swift in Sources */,
+				A330BB652A848DED00980C49 /* Language.swift in Sources */,
+				A330BBA22A849F2200980C49 /* SettingView.swift in Sources */,
+				A330BBF02A84ACF900980C49 /* CategoryHome.swift in Sources */,
+				A330BBA02A849F0800980C49 /* SettingRootView.swift in Sources */,
+				A330BC7A2A84B76D00980C49 /* NotificationToastView.swift in Sources */,
+				A330BC042A84ACF900980C49 /* DCCourseList.swift in Sources */,
+				A330BBF82A84ACF900980C49 /* Data.swift in Sources */,
+				A330BB672A848E0200980C49 /* Ability.swift in Sources */,
+				A330BBE82A84ACF900980C49 /* FavoriteButton.swift in Sources */,
+				A330BBE72A84ACF900980C49 /* CircleImage.swift in Sources */,
+				A330BAB62A8372C500980C49 /* LottieView.swift in Sources */,
+				A330BBFB2A84ACF900980C49 /* DCUpdateStore.swift in Sources */,
+				A330BC712A84B76D00980C49 /* ProgressView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A330BC062A84AE8D00980C49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A330BC1E2A84AF7A00980C49 /* LandmarkSettings.swift in Sources */,
+				A330BC412A84B15200980C49 /* Profile.swift in Sources */,
+				A330BC0F2A84AE8D00980C49 /* ContentView.swift in Sources */,
+				A330BC402A84B11D00980C49 /* LandmarkModel.swift in Sources */,
+				A330BC4B2A84B22A00980C49 /* MapView.swift in Sources */,
+				A330BC1C2A84AF5D00980C49 /* LandmarkCommands.swift in Sources */,
+				A330BC492A84B22600980C49 /* CircleImage.swift in Sources */,
+				A330BC1A2A84AF4100980C49 /* LandmarkDetail.swift in Sources */,
+				A330BC432A84B19E00980C49 /* Hike.swift in Sources */,
+				A330BC0D2A84AE8D00980C49 /* ChongdianMacApp.swift in Sources */,
+				A330BC472A84B1E100980C49 /* LandmarkRow.swift in Sources */,
+				A330BC4D2A84B25C00980C49 /* FavoriteButton.swift in Sources */,
+				A330BC3D2A84B0AD00980C49 /* Landmark.swift in Sources */,
+				A330BC452A84B1CC00980C49 /* LandmarkList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A330BC222A84B00C00980C49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A330BC2E2A84B00C00980C49 /* ContentView.swift in Sources */,
+				A330BC422A84B15300980C49 /* Profile.swift in Sources */,
+				A330BC3F2A84B11D00980C49 /* LandmarkModel.swift in Sources */,
+				A330BC4E2A84B25C00980C49 /* FavoriteButton.swift in Sources */,
+				A330BC4C2A84B22B00980C49 /* MapView.swift in Sources */,
+				A330BC462A84B1CC00980C49 /* LandmarkList.swift in Sources */,
+				A330BC442A84B19F00980C49 /* Hike.swift in Sources */,
+				A330BC3C2A84B04800980C49 /* LandmarkDetail.swift in Sources */,
+				A330BC2C2A84B00C00980C49 /* ChongdianWatchApp.swift in Sources */,
+				A330BC3E2A84B0B200980C49 /* Landmark.swift in Sources */,
+				A330BC482A84B1E100980C49 /* LandmarkRow.swift in Sources */,
+				A330BC4A2A84B22700980C49 /* CircleImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A330BC292A84B00C00980C49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A330BC252A84B00C00980C49 /* ChongdianWatch Watch App */;
+			targetProxy = A330BC282A84B00C00980C49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A330BAA02A836F3E00980C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A330BAA12A836F3E00980C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A330BAA32A836F3E00980C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChongDian/ChongDian.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChongDian/Preview Content\"";
+				DEVELOPMENT_TEAM = W3WX9TN82K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cictec.jjj.ChongDian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A330BAA42A836F3E00980C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChongDian/ChongDian.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChongDian/Preview Content\"";
+				DEVELOPMENT_TEAM = W3WX9TN82K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cictec.jjj.ChongDian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A330BC172A84AE8D00980C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChongdianMac/ChongdianMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChongdianMac/Preview Content\"";
+				DEVELOPMENT_TEAM = W3WX9TN82K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cictec.jjj.ChongdianMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A330BC182A84AE8D00980C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChongdianMac/ChongdianMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChongdianMac/Preview Content\"";
+				DEVELOPMENT_TEAM = W3WX9TN82K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cictec.jjj.ChongdianMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A330BC352A84B00D00980C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChongdianWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = W3WX9TN82K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ChongdianWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cictec.jjj.ChongdianWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		A330BC362A84B00D00980C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChongdianWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = W3WX9TN82K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ChongdianWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cictec.jjj.ChongdianWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		A330BC392A84B00D00980C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W3WX9TN82K;
+				INFOPLIST_KEY_CFBundleDisplayName = ChongdianWatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cictec.jjj.ChongdianWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A330BC3A2A84B00D00980C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W3WX9TN82K;
+				INFOPLIST_KEY_CFBundleDisplayName = ChongdianWatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cictec.jjj.ChongdianWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A330BA8E2A836F3D00980C49 /* Build configuration list for PBXProject "ChongDian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A330BAA02A836F3E00980C49 /* Debug */,
+				A330BAA12A836F3E00980C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A330BAA22A836F3E00980C49 /* Build configuration list for PBXNativeTarget "ChongDian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A330BAA32A836F3E00980C49 /* Debug */,
+				A330BAA42A836F3E00980C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A330BC162A84AE8D00980C49 /* Build configuration list for PBXNativeTarget "ChongdianMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A330BC172A84AE8D00980C49 /* Debug */,
+				A330BC182A84AE8D00980C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A330BC342A84B00D00980C49 /* Build configuration list for PBXNativeTarget "ChongdianWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A330BC352A84B00D00980C49 /* Debug */,
+				A330BC362A84B00D00980C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A330BC382A84B00D00980C49 /* Build configuration list for PBXNativeTarget "ChongdianWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A330BC392A84B00D00980C49 /* Debug */,
+				A330BC3A2A84B00D00980C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A330BAA52A8371CA00980C49 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://gitee.com/laoyouHome/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		A330BB842A8490B200980C49 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://gitee.com/laoyouHome/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A330BAA62A8371CA00980C49 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A330BAA52A8371CA00980C49 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		A330BB852A8490B200980C49 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A330BB842A8490B200980C49 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A330BA8B2A836F3D00980C49 /* Project object */;
+}

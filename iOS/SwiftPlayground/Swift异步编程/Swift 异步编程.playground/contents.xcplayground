@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='macos' display-mode='raw' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='通俗例子'/>
+        <page name='处理多个异步任务'/>
+        <page name='基础非同步 语法- async、await、Task 和 MainActor'/>
+        <page name='什麼是 capture 和 escaping？&amp; 使用 capture list 建立弱連結- Swift 新手入門'/>
+        <page name='Actor 介紹：Global Actor、isolated、Task 繼承 - Swift 新手入門'/>
+        <page name='GlobalActor'/>
+    </pages>
+</playground>
